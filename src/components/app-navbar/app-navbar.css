@@ -1,0 +1,21 @@
+.AppNavbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 200px;
+  min-height: 40px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.vl {
+  border-left: 3px solid black;
+  height: 30px;
+  left: 50%;
+  top: 0;    
+}
+
+a {
+  text-decoration: none;
+}
+

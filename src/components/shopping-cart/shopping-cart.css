@@ -1,0 +1,126 @@
+.ShoppingCart {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.order-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 665px;
+}
+
+.user-info {
+  height: 100%;
+  border: 2px solid lightgray;
+  margin-left: 20px;
+  min-width: 50%;
+  border-radius: 10px;
+}
+
+.user-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.user-form input {
+  margin-bottom: 20px;
+  width: 90%;
+  border: 2px solid lightgray;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+
+.user-form label {
+  margin-left: 20px;
+}
+
+.cart-products {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 2px solid lightgray;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 50%;
+  overflow: scroll;
+}
+
+.cart-product {
+  border: 2px solid lightgray;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  /* height: 320px; */
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  box-sizing: border-box;
+}
+
+.cart-product-image {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 240px;
+  height: auto;
+  border: 2px solid lightgray;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+
+.cart-product-info {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 180px;
+  width: 40%;
+}
+
+.cart-product-title {
+  text-transform: capitalize;
+  font-weight: bold;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.cart-product-price {
+  margin-top: -40px;
+  margin: 0 auto;
+
+}
+
+.cart-product-input {
+  margin: 0 auto;
+  width: 90%;
+  height: 40px;
+  border: 2px solid lightgray;
+  border-radius: 5px;
+  font-size: 24px;
+}
+
+.order-result-list {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+  justify-content: space-between;
+  width: 380px;
+  margin-right: 20px;
+}
+
+.total-price {
+  font-size: 24px;
+}
+
+.error-message {
+  color: red;
+  margin-left: 20px;
+}
