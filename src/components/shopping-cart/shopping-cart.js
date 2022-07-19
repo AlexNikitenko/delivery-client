@@ -50,7 +50,6 @@ function ShoppingCart({ shoppingList, getQuantity, clearCart }) {
       })
       .then(data => data.json())
       .then(res => {
-        console.log('Fetch res>>>', res);
         if (!res.data.errors) {
           clearCart();
           setErrors({});
@@ -58,7 +57,7 @@ function ShoppingCart({ shoppingList, getQuantity, clearCart }) {
         }
         setErrors(res.data.errors);
       })
-      .catch(err => console.log('Err msg>>>', err.message));
+      .catch(err => console.log('Error msg>>>', err.message));
     return finalOrder;
   }
 

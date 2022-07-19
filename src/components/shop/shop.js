@@ -1,7 +1,6 @@
 import './shop.css';
 import { useEffect, useState, useRef } from 'react';
 import { Outlet, useNavigate, NavLink } from 'react-router-dom';
-// import 'bulma/css/bulma.min.css';
 const BASE_URL = process.env.REACT_APP_BASE_URL;
 
 console.log('BASE>>>', process.env);

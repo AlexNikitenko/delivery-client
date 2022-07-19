@@ -1,7 +1,6 @@
 import './shop-products.css';
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-// import 'bulma/css/bulma.min.css';
 const BASE_URL = process.env.REACT_APP_BASE_URL;
 
 function ShopProducts({ addProducts, shoppingList} ) {
@@ -9,7 +8,6 @@ function ShopProducts({ addProducts, shoppingList} ) {
   const [error, setError] = useState(null);
   const [isLoaded, setIsLoaded] = useState(false);
   const [items, setItems] = useState([]);
-  // const [cartProducts, setCartProducts] = useState([]);
   
   const { id } = useParams();
 
